@@ -1,0 +1,78 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+  }
+  
+.post__body {
+    flex: 1;
+    padding: 10px;
+  }
+  
+.post__body > img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.post__footer > .MuiSvgIcon-root {
+    padding: 10px;
+}
+.post__headerDescription {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+  
+.post__headerText > h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+  
+.post__badge {
+    font-size: 14px !important;
+    color: var(--twitter-color);
+}
+  
+.post__headerSpecial {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+  
+.post__avatar {
+    padding: 20px;
+
+}
+.footer__icons{
+    cursor: pointer;
+}
+.ChatBubbleOutlineIcon:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+.RepeatIcon:hover{
+    background-color:rgb(224, 255, 238);
+    border-radius: 30px;
+    color:rgb(23, 191, 99);
+    transition: color 100ms ease-out;
+}
+.FavoriteBorderIcon:hover{
+    background-color: rgb(255, 225, 234);
+    border-radius: 30px;
+    color: rgb(224, 36, 94);
+    transition: color 100ms ease-out;
+}
+.PublishIcon:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
